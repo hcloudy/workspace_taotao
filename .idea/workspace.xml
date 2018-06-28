@@ -2,14 +2,355 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="b633e467-1def-4709-a0b5-bfcf5aedf28a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-dao/pom.xml" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-dao/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/pom.xml" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemService.java" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemService.java" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/impl/ItemServiceImpl.java" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/impl/ItemServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/pom.xml" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemController.java" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemController.java" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test/java/com/taotao/fastdfs/FastdfsTest.java" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test/java/com/taotao/fastdfs/FastdfsTest.java" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test/java/com/taotao/pagehelper/TestPageHelper.java" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test/java/com/taotao/pagehelper/TestPageHelper.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.log" afterPath="$PROJECT_DIR$/.metadata/.log" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/0/00b7f150897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1/804c391cfa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1/9009f008027200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1/c0ea7353787100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/10/60638489847400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/12/009dae8cde720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/12/60d2f4a18c7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/14/30039fdfc273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/15/a067a1898c7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/17/6073b7b0927400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/17/a065abdc867400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/17/c0e309f1fa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/18/30f307d2f67100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1b/10b0b5fb897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1b/200353d9977400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1b/80e7af8c897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1c/d03a093a007200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1e/8082db2a987400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1e/e0ede07d777100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1f/10933bc7767100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1f/e0b318c2027200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/20/b0e4c92b997400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/24/d01890d3017200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/26/0080f3dffa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/26/c0bc630d867400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/27/e086b352fa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/28/30382a06867400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/2a/80802368997200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/2b/b0209c5fc173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/2b/d0db3a9e857400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/2c/f08c0357f3720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/2e/30fb2c97c173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/30/301cd08d977400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/30/302a00ed4e7500181b799413a6b7d8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/33/80be5b81007200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/34/00d848e1857400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/37/100fd65f7776001815fd9384c86d42ed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/37/50f8abc99e7200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/38/103876f4897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/39/e0a154a4fb7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/3a/204c67aa8c7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/3b/2077f10fc373001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/3b/a02293b1fb7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/3e/e0a7ec868c7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/3f/a07f0a0a867400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/3f/c0509e40fa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4/c0a990a2067200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/40/20f48e9d037200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/41/00f24927c173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/41/d0615efe4d7500181b799413a6b7d8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/43/b09c0d21c273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/44/3007336e9d7200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/45/602044c0c273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/47/b019d8a6c273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/48/606f9355787100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/49/10fe43f7897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4a/d07b8012867400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4c/80563633517500181b799413a6b7d8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4d/20783923987400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4d/d0203673fa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4e/00848f1c857400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4e/20ac5f2c857400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4f/30c8b537d276001812e4920ff48507c3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5/c0406b7c8b7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/50/10ba971cc473001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/50/d04d5205cd73001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/51/40726186f4720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/52/10fa36f0c073001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/52/4084ac87c273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/52/5066bd30987400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/52/f0dada3fc173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/53/905d38cb027200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/54/805e2faffa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/54/d02d8c58f87100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/55/d0e4566f3c7200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/56/60ac98b4f97100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/56/909d6383de720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/56/d0217d48c273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/58/f0e8cb21997400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5b/50912b91997400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5c/f0f748038b7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5d/20209c22fa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5d/80d9c2dcfa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5d/f09726f5fa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5e/90184d7ac373001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/60/70c87ba4787100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/61/a019df40c373001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/62/9060fcb8397200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/63/40881db5037200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/66/8089cc3cc173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/68/30a776b98a7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/68/902069b0067200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/68/f05b0f20857400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/69/103ba20f867400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/69/a0c1497ec373001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/69/d0910015987400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6a/70c40418c473001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6c/10f2219e847400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6c/20bec05efb7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6c/c0b8993df97100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6d/70263ee4c573001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6e/0034bc97de720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6e/b0614038007200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6f/b05bfcc3787100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7/80697f02e2720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7/a06068be037200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7/c0d519def1720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/70/902c5078c273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/70/e007841f407200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/72/d0b17568de720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/73/a00955b58d7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/75/e0556211fa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/78/e00df199f87100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7a/30ebec32c173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7d/b024ff8f777100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7d/d0b5461c017200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7e/c0cc73fc857400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7f/808dcd90c273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7f/904edb58c173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7f/a0fa304c897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7f/f05acbc9c173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/80/70af3122037200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/80/80f3f77f977400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/82/8009cf50787100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/82/e094811d037200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/82/f02c9735fb7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/84/a02f3d9cdb720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/85/90cfa13e8e7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/85/c0c7a806f97100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/86/40c44923057200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/86/60d7fd01777100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/88/b002d5fc4d7500181b799413a6b7d8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/89/b0aa0253de720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/8a/80c40ee6857400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/8a/b01c63cf8d7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/8a/d041bc44897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/8b/d0564cc8977400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/8b/e07fc0a0c273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/8d/1006840d017200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9/c0c9b64d387200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/91/103ef28f857400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/92/f0810c78c473001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/93/609c7ccfc273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/96/20ac4920517500181b799413a6b7d8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/96/608ec59a897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/97/c07a98b89e7200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/98/10458d2e867400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/99/20e3a7fd897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9b/a0cca401c173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9d/00de1461c173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9d/30d189738e7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9e/60f056f9987200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9e/802e9fc6937200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9f/8057d949f3720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9f/d01cd712c173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9f/d0af6d05e2720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a/d0d417d5027200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a0/20845702fb7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a1/d0be0ade977400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a1/d0cee8408d7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a2/f05a9eb3067200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a3/c0b4309bf3720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a6/10ae6d21017200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a6/c044984c857400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a7/40ce427c777100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a8/60c5b21bd173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a9/4035b67df4720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a9/d0448c40f97100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/aa/109d3e2ffc7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/aa/602f734cfa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ad/80378ba3557500181b799413a6b7d8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ae/00b008c5937200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ae/b020c053c273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/af/807cc88bbf73001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/af/d026f4a3057200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b/10b8c9fcdc720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b3/10a13842c173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b4/1027bd37f4720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b4/40ef399e057200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b5/20c98ce4f87100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b5/c09dd8cece73001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b5/f0fdb6ac8b7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b6/009580f7e0720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b7/a0a0a5fdc273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b7/d0cbd5ae057200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b9/20a202f0987200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b9/5075106c9d7200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ba/40a44d8fc273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/bd/90cbc61dc173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/be/20c166eace73001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/be/400d4cf4387200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c/30a23d86977400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c/d0207833597500181b799413a6b7d8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c/f0b26fc2c273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c2/709618bf067200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c3/40af4c4f787100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c3/f04a3f34f4720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c6/10aad4b6f3720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c7/b045ea2cd173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c7/d0aeddc1937200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c7/e07c5aaa057200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c8/90a255b8557500181b799413a6b7d8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c9/a00dda9b027200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ca/b01069ee777100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/cc/80a9ce1fc173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/cc/c0b8fadc027200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/cd/30554c9ffb7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d/30afbe1b037200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d/60921e5bc273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d0/303cdeda857400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d0/603f110c057200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d3/c06b101b4e7500181b799413a6b7d8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d4/000b8e12027200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d4/20071b6b007200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d7/70dc076f977400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d7/c0990db4c273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d8/1095ec3af4720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d9/00186970c473001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d9/e0a7764ac273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/db/009071e0027200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/db/c042fc9df1720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/db/f0d9cfd1fb7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/dc/80207fe74d7500181b799413a6b7d8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/dd/d0ecf7d1977400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/dd/f0fbc024fa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/df/1005ce539e7200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e/c03997f9c173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e0/80dbaecc037200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e1/608712fa897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e1/8019425ec273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e3/407dbf0b027200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e3/d0553dce977400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e4/f058813f037200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e5/307bf40af97100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e5/30ec3e869e7200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e5/602ff475fa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e6/00afd24ec273001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e7/509180bd067200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ec/a08ccff8037200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ed/6009915bf87100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ee/f0993868fb7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ef/60355b81897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ef/805fbace9e7200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ef/903877b88a7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f0/10951cf6897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f0/a0efe258857400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f1/70db69428b7400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f2/20705d4a397200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f3/0038d260067200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f3/30e362cefa7100181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f4/70afd7a1057200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f5/508014dd897400181d5dc1d746481a48" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f6/4070aa20d173001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f8/e000f65a037200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f9/505b78c8937200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f9/e0302acace73001813b2b896c01ba5f2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/fa/a05800b1557500181b799413a6b7d8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/fb/d077d4d8777100181922e09131b879cf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/fd/4072ae94f3720018121a9d6f8397c33f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ff/a0d78d44407200181d4984c045bcb833" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/mybatis_generatorSqlmapCustom/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/mybatis_generatorSqlmapCustom/org.eclipse.jdt.core/state.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/pagehelper/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/pagehelper/org.eclipse.jdt.core/state.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-common/.indexes/e4/b9/22/81/40/15/84/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-common/.indexes/e4/b9/22/81/40/15/b1/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-common/.indexes/properties.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-common/.indexes/properties.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-common/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-common/org.eclipse.jdt.core/state.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-dao/.indexes/properties.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-dao/.indexes/properties.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-dao/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-dao/org.eclipse.jdt.core/state.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-pojo/.indexes/properties.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-pojo/.indexes/properties.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-pojo/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-pojo/org.eclipse.jdt.core/state.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-service/.indexes/e4/b9/22/81/40/b5/20/history.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-service/.indexes/e4/b9/22/81/40/b5/20/history.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-service/.indexes/e4/b9/22/81/40/b5/history.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-service/.indexes/e4/b9/22/81/40/b5/history.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-service/.indexes/e4/b9/22/b1/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-service/.indexes/properties.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-service/.indexes/properties.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-service/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-service/org.eclipse.jdt.core/state.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.indexes/e4/92/22/81/40/ab/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.indexes/e4/b9/22/81/40/9c/history.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.indexes/e4/b9/22/81/40/9c/history.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.indexes/e4/b9/b3/a8/47/history.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.indexes/e4/b9/b3/a8/47/history.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.indexes/e4/b9/b3/a8/49/c2/47/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.indexes/e4/b9/b3/a8/49/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.indexes/e4/b9/db/cd/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.indexes/e4/b9/db/f3/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.indexes/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.indexes/properties.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.indexes/properties.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.markers" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/.markers" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/org.eclipse.jdt.core/state.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/org.eclipse.wst.jsdt.core/state.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager-web/org.eclipse.wst.jsdt.core/state.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-manager/.indexes/properties.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-parent/.indexes/properties.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-portal/.markers" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-portal/.markers" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-portal/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-portal/org.eclipse.jdt.core/state.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-portal/org.eclipse.wst.jsdt.core/state.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-portal/org.eclipse.wst.jsdt.core/state.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-rest/.indexes/e4/b9/db/cd/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-rest/.indexes/e4/b9/db/f3/history.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-rest/.indexes/e4/b9/db/f3/history.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-rest/.markers" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-rest/.markers" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-rest/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-rest/org.eclipse.jdt.core/state.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-rest/org.eclipse.wst.jsdt.core/state.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/taotao-rest/org.eclipse.wst.jsdt.core/state.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/26.tree" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.svn.ui.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.svn.ui.prefs" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_3.fdt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_3.fdx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_3.fnm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_3.frq" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_3.nrm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_3.prx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_3.tii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_3.tis" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2832769381.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2832769381.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2141462497.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2141462497.dat" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/11cc140ee4e0c6a5d0dde4a89371e513/segments.gen" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/11cc140ee4e0c6a5d0dde4a89371e513/segments.gen" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/11cc140ee4e0c6a5d0dde4a89371e513/segments_t" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/7a2df346e6f1141d8d57e90cf06d8856/segments.gen" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/7a2df346e6f1141d8d57e90cf06d8856/segments.gen" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/7a2df346e6f1141d8d57e90cf06d8856/segments_7i" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_4g_4.del" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_47" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.jdt/taotao-portal.container" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.jdt/taotao-portal.container" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.team.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.team.ui/dialog_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/2141462497.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/2141462497.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/3609442454.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/3609442454.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.validation/dep.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.validation/dep.index" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.beans.core.metadata/metadata/.state" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.beans.core.metadata/metadata/.state" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.dashboard.ui/feeds/dashboard.feeds.blogs/-549550714.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.dashboard.ui/feeds/dashboard.feeds.blogs/-549550714.xml" />
+      <change beforePath="$PROJECT_DIR$/.metadata/version.ini" afterPath="$PROJECT_DIR$/.metadata/version.ini" />
+      <change beforePath="$PROJECT_DIR$/taotao-portal/target/classes/com/taotao/portal/controller/IndexController.class" afterPath="$PROJECT_DIR$/taotao-portal/target/classes/com/taotao/portal/controller/IndexController.class" />
+      <change beforePath="$PROJECT_DIR$/taotao-rest/target/classes/com/taotao/rest/controller/ItemCatController.class" afterPath="$PROJECT_DIR$/taotao-rest/target/classes/com/taotao/rest/controller/ItemCatController.class" />
+      <change beforePath="$PROJECT_DIR$/taotao-rest/target/classes/com/taotao/rest/pojo/ItemCatNode.class" afterPath="$PROJECT_DIR$/taotao-rest/target/classes/com/taotao/rest/pojo/ItemCatNode.class" />
+      <change beforePath="$PROJECT_DIR$/taotao-rest/target/classes/com/taotao/rest/pojo/ItemCatResult.class" afterPath="$PROJECT_DIR$/taotao-rest/target/classes/com/taotao/rest/pojo/ItemCatResult.class" />
+      <change beforePath="$PROJECT_DIR$/taotao-rest/target/classes/com/taotao/rest/service/ItemCatService.class" afterPath="$PROJECT_DIR$/taotao-rest/target/classes/com/taotao/rest/service/ItemCatService.class" />
+      <change beforePath="$PROJECT_DIR$/taotao-rest/target/classes/com/taotao/rest/service/ItemCatServiceImpl.class" afterPath="$PROJECT_DIR$/taotao-rest/target/classes/com/taotao/rest/service/ItemCatServiceImpl.class" />
     </list>
     <ignored path="$PROJECT_DIR$/taotao-manager/taotao-manager-dao/target/" />
     <ignored path="$PROJECT_DIR$/taotao-rest/target/" />
@@ -28,7 +369,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,6 +378,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -96,13 +440,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
@@ -120,6 +464,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="workspace_taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_taotao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -166,25 +524,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="workspace_taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace_taotao" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/taotao-parent/pom.xml" />
+    <property name="last_opened_file_path" value="G:/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -420,7 +764,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -430,11 +774,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.50214136" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25642398" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29625425" sideWeight="0.49785867" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23019272" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23286937" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -458,7 +802,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="66" />
+    <option name="LAST_COMMIT_MESSAGE" value="66" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4368">
           <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,9 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
