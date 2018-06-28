@@ -1,0 +1,30 @@
+package com.taotao.service.impl;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+
+import com.taotao.common.pojo.PictureResult;
+import com.taotao.common.utils.FastDFSClient;
+import com.taotao.service.PictureService;
+
+@Service
+public class PictureServiceImpl implements PictureService{
+
+	@Override
+	public PictureResult uploadPic(MultipartFile picFile) {
+		PictureResult pictureResult = new PictureResult();
+		if(picFile.isEmpty()) {
+			pictureResult.setError(1);
+			pictureResult.setMessage("图片为空");
+			return pictureResult;
+		}
+		try {
+			FastDFSClient fc = new FastDFSClient("classpath:properties/client.conf");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+}

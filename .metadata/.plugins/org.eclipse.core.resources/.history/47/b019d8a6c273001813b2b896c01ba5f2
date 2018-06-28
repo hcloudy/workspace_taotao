@@ -1,0 +1,11 @@
+package com.taotao.controller;
+
+import org.springframework.stereotype.Controller;
+
+import com.taotao.service.impl.ItemParamServiceImpl;
+
+@Controller
+public class ItemParamController {
+
+	private ItemParamServiceImpl itemParamServiceImpl;
+}

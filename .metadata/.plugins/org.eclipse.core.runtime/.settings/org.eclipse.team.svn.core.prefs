@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/200c4f6dbe0f0018175fb236fddb9893=200c4f6dbe0f0018175fb236fddb9893;svn\://192.168.1.104/taotao;svn\://192.168.1.104/taotao;branches;tags;trunk;true;561c2eff-4171-459b-a60d-70165de4fe84;svn\://192.168.1.104/taotao;;false;;;0
+repositories/202098c1130e001818d3e677828d0c80=202098c1130e001818d3e677828d0c80;svn\://192.168.1.102/taotao;svn\://192.168.1.102/taotao;branches;tags;trunk;true;33814daa-0233-d040-928b-31221f0cea97;svn\://192.168.1.102/taotao;;false;;;0

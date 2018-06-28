@@ -1,0 +1,7 @@
+package com.taotao.service;
+
+public class ItemParamService {
+	
+	EasyUIDataGridResult getItemParamList(int page,int rows);
+
+}

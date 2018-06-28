@@ -1,0 +1,22 @@
+package com.taotao.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.taotao.common.pojo.PictureResult;
+import com.taotao.service.PictureService;
+
+@Controller
+public class PictureUploadController {
+	
+	@Autowired
+	PictureService pictureService;
+	
+	@RequestMapping("pic/upload")
+	@ResponseBody
+	public PictureResult uploadFile(Multi picFile){
+		pictureService.uploadPic(picFile);
+	}
+}
