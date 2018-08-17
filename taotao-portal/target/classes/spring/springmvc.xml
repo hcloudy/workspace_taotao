@@ -10,6 +10,9 @@
         				   http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
            				   http://www.springframework.org/schema/context 
            				   http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!--配置扫描属性文件-->
+	<context:property-placeholder location="classpath:properties/*.properties" />
 	<!-- 配置扫描包 -->
 	<context:component-scan base-package="com.taotao.portal.controller"></context:component-scan>
 	<!-- 配置注解驱动 -->
@@ -20,4 +23,12 @@
 		<property name="prefix" value="/WEB-INF/jsp/"></property>
 		<property name="suffix" value=".jsp"></property>
 	</bean>
+
+	<!-- 配置拦截器-->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/item/**"/>
+			<bean class="com.taotao.portal.Interceptor.LoginInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
 </beans>
