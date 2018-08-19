@@ -9,6 +9,6 @@
 <body>
 <h1>此商品已经成功添加到购物车！</h1>
 <a href="/cart/cart.html">查看购物车</a>
-<a href="/">继续购物</a>
+<a href="javascript:;" onclick="javascript:history.go(-1)">继续购物</a>
 </body>
 </html>

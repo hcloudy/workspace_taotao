@@ -35,7 +35,7 @@ public class CartServiceImpl implements CartService {
         boolean haveflag = false;
         for (CartItem c : list) {
             //3.如果添加过,把对应的商品取出来，数量加Num
-            if(c.getId().equals(itemId)) {
+            if(c.getId().longValue() == itemId) {
                 c.setNum(c.getNum() + num);
                 haveflag = true;
                 break;
@@ -57,13 +57,13 @@ public class CartServiceImpl implements CartService {
             list.add(cartItem);
         }
         // 5.再把list返回到cookie中
-        CookieUtils.setCookie(request, response, "TT_CART", COOKIE_EXPIRE, JsonUtils.objectToJson(list));
+        CookieUtils.setCookie(request, response, "TT_CART",JsonUtils.objectToJson(list), COOKIE_EXPIRE, true);
         return TaotaoResult.ok();
     }
 
     private List<CartItem> getCartFromCookie(HttpServletRequest request) {
         try {
-            String json = CookieUtils.getCookieValue(request, "TT_TOKEN", true);
+            String json = CookieUtils.getCookieValue(request, "TT_CART", true);
             List<CartItem> list = JsonUtils.jsonToList(json, CartItem.class);
             if (list == null) {
                 return new ArrayList<>();
@@ -73,5 +73,35 @@ public class CartServiceImpl implements CartService {
         }catch (Exception e) {
             return new ArrayList<>();
         }
+    }
+
+    public List<CartItem> getCartLists(HttpServletRequest request) {
+        List<CartItem> cartItemList = getCartFromCookie(request);
+        return cartItemList;
+    }
+
+    @Override
+    public TaotaoResult updateCartNum(HttpServletRequest request, HttpServletResponse response, Long itemId, Integer num) {
+        List<CartItem> cartLists = getCartLists(request);
+        for(CartItem c : cartLists) {
+            if(c.getId().longValue() == itemId) {
+                c.setNum(num);
+            }
+        }
+        CookieUtils.setCookie(request, response, "TT_CART",JsonUtils.objectToJson(cartLists), COOKIE_EXPIRE, true);
+        return TaotaoResult.ok();
+    }
+
+    @Override
+    public TaotaoResult deleteCartItem(Long itemId, HttpServletRequest request, HttpServletResponse response) {
+        List<CartItem> lists = getCartLists(request);
+        for (CartItem c : lists) {
+            if(c.getId().longValue() == itemId) {
+                lists.remove(c);
+                break;
+            }
+        }
+        CookieUtils.setCookie(request, response,"TT_CART",JsonUtils.objectToJson(lists), COOKIE_EXPIRE, true);
+        return TaotaoResult.ok();
     }
 }

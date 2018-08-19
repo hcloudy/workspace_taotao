@@ -39,6 +39,6 @@
 	
 	<!-- 配置切面 -->
 	<aop:config>
-		<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.taotao.rest.service.*.*(..))"/>
+		<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.taotao.order.service.*.*(..))"/>
 	</aop:config>
 </beans>
