@@ -24,6 +24,7 @@ public class LoginInterceptor implements HandlerInterceptor{
             response.sendRedirect(SSO_LOGIN_URL + "?redirectUrl=" + request.getRequestURL());
             return false;
         }
+        request.setAttribute("user",user);
         return true;
         //返回false说明拦截, true放行
     }

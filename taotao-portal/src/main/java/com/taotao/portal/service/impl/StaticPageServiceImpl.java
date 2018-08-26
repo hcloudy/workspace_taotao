@@ -25,6 +25,8 @@ public class StaticPageServiceImpl implements StaticPageService {
     private FreeMarkerConfigurer freeMarkerConfigurer;
     @Value("${FREEMARKER_STATIC_PATH}")
     private String FREEMARKER_STATIC_PATH;
+    @Value("${CENTOS_FREEMARKER_STATIC_PATH}")
+    private String CENTOS_FREEMARKER_STATIC_PATH;
 
     @Override
     public TaotaoResult genStaticPage(Long itemId) throws Exception {
@@ -40,7 +42,10 @@ public class StaticPageServiceImpl implements StaticPageService {
         root.put("itemDesc", desc);
         root.put("itemParam", param);
         //创建writer
-        Writer out = new FileWriter(new File(FREEMARKER_STATIC_PATH+itemId+".html"));
+//        Writer out = new FileWriter(new File(FREEMARKER_STATIC_PATH+itemId+".html"));
+        File file = new File(CENTOS_FREEMARKER_STATIC_PATH+itemId+".html");
+        Writer out = new FileWriter(file);
+//        Writer out = new FileWriter(new File(CENTOS_FREEMARKER_STATIC_PATH+itemId+".html"));
         template.process(root, out);
         out.flush();
         out.close();

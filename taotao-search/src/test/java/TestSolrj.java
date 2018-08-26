@@ -7,13 +7,12 @@ import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.SolrInputDocument;
-import org.junit.Test;
 
 import java.io.IOException;
 
 public class TestSolrj {
 
-    @Test
+//    @Test
     public void testSolrj() throws Exception{
         SolrServer solrServer = new HttpSolrServer("http://192.168.1.117:8080/solr");
 
@@ -26,7 +25,7 @@ public class TestSolrj {
         solrServer.commit();
     }
 
-    @Test
+//    @Test
     public void querySolrj() throws SolrServerException {
         SolrServer solrServer = new HttpSolrServer("http://192.168.1.117:8080/solr");
 
@@ -43,7 +42,7 @@ public class TestSolrj {
     }
 
     //测试solr集群版
-    @Test
+//    @Test
     public void querySolrCloud() throws IOException, SolrServerException {
         CloudSolrServer solrServer = new CloudSolrServer("192.168.1.117:2181,192.168.1.117:2182,192.168.1.117:2183");
         SolrInputDocument document = new SolrInputDocument();
