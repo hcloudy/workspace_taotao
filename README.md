@@ -1,1 +1,2 @@
 # workspace_taotao
+mybatis_generatorSqlmapCustom是普通java工程用来生成pojo和dao和mapper
